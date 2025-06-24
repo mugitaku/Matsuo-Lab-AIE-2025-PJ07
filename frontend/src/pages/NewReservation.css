@@ -1,0 +1,60 @@
+.new-reservation {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.new-reservation h1 {
+  margin-bottom: 20px;
+}
+
+.description {
+  color: #666;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.reservation-form {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.reservation-form .form-group label {
+  font-weight: 500;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.reservation-form textarea {
+  resize: vertical;
+  min-height: 150px;
+  line-height: 1.5;
+}
+
+.example-section {
+  margin: 25px 0;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+}
+
+.example-section h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.example-section ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.example-section li {
+  margin-bottom: 8px;
+  color: #666;
+}
+
+.reservation-form .btn-primary {
+  margin-top: 20px;
+}

@@ -1,0 +1,108 @@
+.pending-rejections h1 {
+  margin-bottom: 15px;
+}
+
+.description {
+  color: #666;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.no-pending {
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.no-pending p {
+  color: #666;
+  font-size: 18px;
+}
+
+.rejection-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.rejection-card {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-left: 4px solid #ffc107;
+}
+
+.rejection-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.rejection-header h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.priority-score {
+  background-color: #f8f9fa;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #495057;
+}
+
+.rejection-details {
+  margin-bottom: 20px;
+}
+
+.detail-row {
+  margin-bottom: 15px;
+}
+
+.detail-row strong {
+  display: block;
+  color: #555;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.detail-row p {
+  margin: 0;
+  color: #333;
+}
+
+.ai-judgment {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+.ai-judgment strong {
+  display: block;
+  color: #495057;
+  margin-bottom: 8px;
+}
+
+.ai-judgment p {
+  margin: 0;
+  color: #333;
+  line-height: 1.5;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.action-buttons button {
+  flex: 1;
+}
